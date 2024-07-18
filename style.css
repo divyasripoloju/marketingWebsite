@@ -1,0 +1,300 @@
+/* body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  text-shadow: #888;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tab-button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 px;
+  font-weight: 600;
+
+
+  width: 150px ;
+
+
+}
+
+.tab-button.active {
+  background-color: #000;
+  color: #fff;
+  width: 150px ;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+ 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 0px;
+}
+
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  
+  padding: 0px;
+  width: 200px;
+  text-align: center;
+  position: relative; 
+  margin: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 540px;
+  height: 726px; 
+  max-width: 200px;
+  max-height: 267px; 
+  border-radius: 2px 0 0 0; 
+}
+
+
+
+
+.product h2,
+.product p {
+  display: inline-block;
+  margin: 5px 0;
+  vertical-align: top; 
+}
+
+.product h2 {
+  font-size: 1.2em;
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product p {
+  font-size: 1em;
+  color: black;
+  margin-left: 10px;
+  padding: 5px 0;
+
+}
+
+
+
+
+
+.product .price,
+.product .compare-at-price,
+.product .discount {
+  display: inline-block;
+  margin: 2px 1px 2px 2px; 
+  vertical-align: middle; 
+  font-size: 1em; 
+}
+
+.product .price {
+  font-weight: 500;
+}
+
+.product .compare-at-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.product .discount {
+  color: red;
+  font-weight: 500;
+}
+
+
+.product .badge {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border: 1px light black;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.8em;
+}
+
+.product button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  width: 100%;
+} */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  text-shadow: #888;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #706c6c;
+  width: 750px;
+  margin: 20px auto; /* Centering the .tabs container horizontally */
+  /* Optional: Add padding inside the .tabs container */
+}
+
+
+.tab-button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 250px;
+}
+
+.tab-button.active {
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  width: 250px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 8px;
+  margin: 10px 1px; /* Reduce left and right margins */
+}
+
+
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0px;
+  width: 200px;
+  text-align: center;
+  position: relative; /* For badge positioning */
+  margin: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 540px;
+  height: 726px; 
+  max-width: 200px;
+  max-height: 267px; 
+  border-radius: 2px 0 0 0; 
+}
+
+.product h2,
+.product p {
+  display: inline-block;
+  margin: 5px 0;
+  vertical-align: top; /* Align elements at the top */
+}
+
+.product h2 {
+  font-size: 1.2em;
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product p {
+  
+  
+  font-size: 0.8em;
+  
+  color: black;
+  margin-left: 10px;
+  padding: 5px 0;
+}
+
+.product .price,
+.product .compare-at-price,
+.product .discount {
+  display: inline-block;
+  margin: 1px 1px 2px 10px; /* Adjust margins as needed */
+  vertical-align: middle; /* Align elements vertically */
+  font-size: 0.8em; /* Adjust font size as needed */
+}
+
+.product .price {
+  font-weight: 300;
+}
+
+.product .compare-at-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.product .discount {
+  color: red;
+  font-weight: 300;
+}
+
+.product .badge {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border: 1px light black; /* Add border */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.8em;
+}
+
+.product button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  width: 100%;
+}
